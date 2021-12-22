@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 内网
+    url: jdbc:mysql://xxx:3306/xxx_rt?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT-0&useSSL=false
+    username: xxx
+    password: 'xxx'
+  elasticsearch:
+    rest:
+      uris: xxx
+      username: xxx
+      password: xxx
+job:
+  pre-process: true

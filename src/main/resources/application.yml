@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    hikari:
+      max-lifetime:120000
+  jpa:
+    open-in-view: true
